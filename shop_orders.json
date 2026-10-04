@@ -1,0 +1,22 @@
+{
+  "products": {
+    "BK101": {"name": "Python for Everyone", "category": "Books", "price": 24.99},
+    "BK102": {"name": "Data Structures Workbook", "category": "Books", "price": 18.5},
+    "ST201": {"name": "Graph Paper Notebook", "category": "Stationery", "price": 4.25},
+    "ST202": {"name": "Mechanical Pencil", "category": "Stationery", "price": 7.8},
+    "EL301": {"name": "USB-C Hub", "category": "Electronics", "price": 32.0},
+    "EL302": {"name": "Wireless Mouse", "category": "Electronics", "price": 21.5}
+  },
+  "orders": [
+    {"id": 1001, "customer": "Amira", "date": "2026-09-02", "status": "completed", "items": [{"sku": "BK101", "quantity": 1}, {"sku": "ST201", "quantity": 2}]},
+    {"id": 1002, "customer": "Ben", "date": "2026-09-03", "status": "completed", "items": [{"sku": "EL301", "quantity": 1}, {"sku": "EL302", "quantity": 1}]},
+    {"id": 1003, "customer": "Amira", "date": "2026-09-05", "status": "cancelled", "items": [{"sku": "BK102", "quantity": 2}]},
+    {"id": 1004, "customer": "Chloe", "date": "2026-09-06", "status": "completed", "items": [{"sku": "BK102", "quantity": 1}, {"sku": "ST202", "quantity": 2}]},
+    {"id": 1005, "customer": "Darius", "date": "2026-09-08", "status": "completed", "items": [{"sku": "EL302", "quantity": 2}, {"sku": "ST201", "quantity": 3}]},
+    {"id": 1006, "customer": "Ben", "date": "2026-09-10", "status": "completed", "items": [{"sku": "BK101", "quantity": 1}, {"sku": "BK102", "quantity": 1}]},
+    {"id": 1007, "customer": "Chloe", "date": "2026-09-12", "status": "cancelled", "items": [{"sku": "EL301", "quantity": 1}]},
+    {"id": 1008, "customer": "Amira", "date": "2026-09-14", "status": "completed", "items": [{"sku": "ST202", "quantity": 1}, {"sku": "EL302", "quantity": 1}]},
+    {"id": 1009, "customer": "Darius", "date": "2026-09-17", "status": "completed", "items": [{"sku": "BK101", "quantity": 2}, {"sku": "ST201", "quantity": 1}]},
+    {"id": 1010, "customer": "Chloe", "date": "2026-09-19", "status": "completed", "items": [{"sku": "EL301", "quantity": 1}, {"sku": "BK102", "quantity": 1}]}
+  ]
+}
